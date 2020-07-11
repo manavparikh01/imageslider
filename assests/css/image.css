@@ -1,0 +1,169 @@
+/*body {
+    padding: 0;
+    margin: 0;
+    background: #232323;
+    text-align: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.heading {
+    margin: 0;
+    padding: 20px 0;
+    background: rgb(155, 155, 247);
+    opacity: 0.6;
+}
+
+.imagesliderpart {
+    height:100%;
+    padding: 10%;
+    max-width: 1200px;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 100%;
+    width: 100%;
+    min-height: 350px;
+    background: rgba(155, 155, 247, 0.6);
+
+}
+
+.slidermain {
+    height: 100%;
+    width: 100%;
+    min-height: 350px;
+    background: url(../images/rain1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    transition: background 1s;
+}
+
+#column {
+    height: 100%;
+    max-height: 350px;
+    min-height: 350px;
+    padding-top: 150px;
+    padding-bottom: 83px
+    
+}
+
+#row {
+    height: 100%;
+    min-height: 350px;
+}
+
+.btn {
+    background: none;
+    height: 40px;
+    border : 1px solid rgba(255, 255, 255, 0.0);
+    border-radius: 100%;
+}
+
+.btn:hover {
+    background: none;
+    border: 1px solid white;
+}
+
+.btn:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.0);
+    border: none;    
+}*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    margin: 0 auto;
+}
+
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.heading {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.maindiv {
+    
+    max-width: 47%;
+    height:100%;
+    min-height: 200px;
+    min-width: 300px;
+    
+    padding-top: 75px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 0;
+    
+}
+
+.middiv {
+    height: 100%;
+    width: 100%;
+    max-height: 500px;
+    min-height: 200px;
+    max-width: 744;
+    
+    margin: 0 auto;
+}
+
+#leftbutton {
+    position: absolute;
+    z-index: 10;
+    top: 52%;
+    left: 5%;
+    color: white;
+    opacity: 0.6;
+    font-size: 30px;
+}
+
+#rightbutton {
+    
+    position: absolute;
+    z-index: 10;
+    top: 52%;
+    right: 5%;
+    color: white;
+    opacity: 0.6;
+    font-size: 30px;
+}
+
+.imagediv {
+    height: 100%;
+    width: 100%;
+    max-height: 500px;
+    min-height: 200px;
+    max-width: 744;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+img {
+    max-height: 500px;
+    min-height: 200px;
+    
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide {
+    transition: transform 2s ease-in-out;
+}
+
+
+
